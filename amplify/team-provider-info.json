@@ -13,9 +13,6 @@
       "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-taskapp-dev-143515-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
-      "auth": {
-        "taskapp5cb837ac": {}
-      },
       "function": {
         "taskappAPI": {
           "deploymentBucketName": "amplify-taskapp-dev-143515-deployment",
@@ -31,6 +28,12 @@
       },
       "storage": {
         "taskAppDB": {}
+      },
+      "auth": {
+        "taskapp1d5bac24": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
       }
     }
   }

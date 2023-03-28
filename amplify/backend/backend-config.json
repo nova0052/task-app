@@ -16,7 +16,7 @@
     }
   },
   "auth": {
-    "taskapp5cb837ac": {
+    "taskapp1d5bac24": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -53,6 +53,12 @@
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "providerPlugin": "awscloudformation",
+      "service": "S3AndCloudFront"
     }
   },
   "parameters": {
