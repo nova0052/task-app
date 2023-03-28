@@ -56,6 +56,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_taskAppAPICreateTask_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "taskAppAPICreateTask"
+        }
+      ]
+    },
+    "AMPLIFY_function_taskAppAPICreateTask_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "taskAppAPICreateTask"
+        }
+      ]
+    },
     "AMPLIFY_function_taskappAPI_deploymentBucketName": {
       "usedBy": [
         {

@@ -21,7 +21,10 @@
           "deploymentBucketName": "amplify-taskapp-dev-143515-deployment",
           "s3Key": "amplify-builds/taskappAPI-30445a714f62746a3950-build.zip"
         },
-        "taskAppAPICreateTask": {}
+        "taskAppAPICreateTask": {
+          "deploymentBucketName": "amplify-taskapp-dev-143515-deployment",
+          "s3Key": "amplify-builds/taskAppAPICreateTask-454d6857354c4c716c75-build.zip"
+        }
       },
       "api": {
         "taskAppAPI": {}
