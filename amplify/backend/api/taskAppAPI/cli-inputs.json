@@ -1,9 +1,9 @@
 {
   "version": 1,
   "paths": {
-    "/items": {
-      "name": "/items",
-      "lambdaFunction": "taskappAPI",
+    "/tasks": {
+      "name": "/tasks",
+      "lambdaFunction": "taskAppAPICreateTask",
       "permissions": {
         "setting": "private",
         "auth": [

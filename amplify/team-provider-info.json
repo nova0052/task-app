@@ -9,14 +9,25 @@
       "UnauthRoleName": "amplify-taskapp-dev-143515-unauthRole",
       "StackName": "amplify-taskapp-dev-143515",
       "StackId": "arn:aws:cloudformation:us-east-2:461757744856:stack/amplify-taskapp-dev-143515/ab473c60-cd9f-11ed-bb40-067cda8f809a",
-      "AmplifyAppId": "d23gudf5aa96ee"
+      "AmplifyAppId": "d23gudf5aa96ee",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-taskapp-dev-143515-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
         "taskapp5cb837ac": {}
       },
       "function": {
-        "taskappAPI": {}
+        "taskappAPI": {
+          "deploymentBucketName": "amplify-taskapp-dev-143515-deployment",
+          "s3Key": "amplify-builds/taskappAPI-30445a714f62746a3950-build.zip"
+        },
+        "taskAppAPICreateTask": {}
+      },
+      "api": {
+        "taskAppAPI": {}
+      },
+      "storage": {
+        "taskAppDB": {}
       }
     }
   }

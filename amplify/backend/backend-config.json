@@ -8,7 +8,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "taskappAPI"
+          "resourceName": "taskAppAPICreateTask"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -44,10 +44,33 @@
     }
   },
   "function": {
+    "taskAppAPICreateTask": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "taskappAPI": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_taskappAPI_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "taskappAPI"
+        }
+      ]
+    },
+    "AMPLIFY_function_taskappAPI_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "taskappAPI"
+        }
+      ]
     }
   },
   "storage": {
